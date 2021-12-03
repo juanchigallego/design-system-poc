@@ -1,0 +1,37 @@
+{
+  "color": {
+    "primary": {
+      "pure": { "value": "#0272D5" },
+      "light": { "value": "#AED9FE" },
+      "lighter": { "value": "#EDF5FE" }
+    },
+    "secondary": {
+      "pure": { "value": "#2C3357" },
+      "light": { "value": "#C9CDE4" },
+      "lighter": { "value": "#EEF1F7" }
+    },
+    "success": {
+      "pure": { "value": "#0CA76B" },
+      "light": { "value": "#B3FADE" },
+      "lighter": { "value": "#EFFDF7" }
+    },
+    "warning": {
+      "pure": { "value": "#FFB337" },
+      "light": { "value": "#FFE0AD" },
+      "lighter": { "value": "#FFF5E9" }
+    },
+    "danger": {
+      "pure": { "value": "#D92A2D" },
+      "light": { "value": "#F3B3B2" },
+      "lighter": { "value": "#FCEBEB" }
+    },
+    "neutral": {
+      "default": { "value": "#473C41" },
+      "placeholder": { "value": "#62595D" },
+      "border": { "value": "#BFBBBD" },
+      "nubeWhite": { "value": "#ECEBEC" },
+      "background": { "value": "#FAFAFA" },
+      "pureWhite": { "value": "#FFFFFF" }
+    }
+  }
+}
