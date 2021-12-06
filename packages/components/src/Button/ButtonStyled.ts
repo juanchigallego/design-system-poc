@@ -1,11 +1,13 @@
 import { styled } from '@stitches/react';
 import { color } from "../../../tokens/build/js/tokens";
 
-export const StyledButton = styled("button", {
+export const ButtonStyled = styled("button", {
   alignItems: "center",
   appearance: "none",
   backgroundColor: "transparent",
   borderRadius: "8px",
+  borderStyle: "solid",
+  borderWidth: "1px",
   cursor: "pointer",
   display: "inline-flex",
   padding: "8px 16px",
@@ -17,8 +19,8 @@ export const StyledButton = styled("button", {
     appearance: {
       default: {
         backgroundColor: color.neutral.nubeWhite.value,
-        border: "1px solid #ecebec",
-        color: "#0272d5",
+        borderColor: color.neutral.nubeWhite.value,
+        color: color.secondary.pure.value,
 
         "&:hover": {
           backgroundColor: "black",
@@ -28,8 +30,8 @@ export const StyledButton = styled("button", {
 
       primary: {
         backgroundColor: color.primary.pure.value,
-        border: "1px solid blue",
-        color: "white",
+        borderColor: color.primary.pure.value,
+        color: color.neutral.pureWhite.value,
 
         "&:hover": {
           backgroundColor: "dark blue",
@@ -38,9 +40,9 @@ export const StyledButton = styled("button", {
       },
 
       secondary: {
-        backgroundColor: "blue",
-        border: "1px solid blue",
-        color: "white",
+        backgroundColor: color.secondary.pure.value,
+        borderColor: color.secondary.pure.value,
+        color: color.neutral.pureWhite.value,
 
         "&:hover": {
           backgroundColor: "dark blue",
@@ -49,9 +51,9 @@ export const StyledButton = styled("button", {
       },
 
       danger: {
-        backgroundColor: "blue",
-        border: "1px solid blue",
-        color: "white",
+        backgroundColor: color.danger.pure.value,
+        borderColor: color.danger.pure.value,
+        color: color.neutral.pureWhite.value,
 
         "&:hover": {
           backgroundColor: "dark blue",

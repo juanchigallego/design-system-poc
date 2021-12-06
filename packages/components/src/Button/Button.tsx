@@ -1,5 +1,5 @@
 import * as React from "react";
-import { StyledButton } from "./ButtonStyled";
+import { ButtonStyled } from "./ButtonStyled";
 
 type Props = {
   appearance?: "default" | "primary" | "secondary" | "danger";
@@ -9,7 +9,7 @@ type Props = {
 
 const Button = ({ appearance= "default", children, onClick }: Props ) => {
   return (
-    <StyledButton appearance={appearance} type="button" onClick={onClick}>{children}</StyledButton>
+    <ButtonStyled appearance={appearance} type="button" onClick={onClick}>{children}</ButtonStyled>
   )
 } 
 
