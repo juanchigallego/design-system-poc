@@ -1,0 +1,25 @@
+{
+  "font": {
+    "family": { "value": "CentraNube,-apple-system,BlinkMacSystemFont,Roboto,'Helvetica Neue',arial,sans-serif" },
+    "size": {
+      "body": {
+        "caption": { "value": "14px" },
+        "base": { "value": "16px" }
+      },
+      "headline": {
+        "elementTitle": { "value": "20px" },
+        "pageSubtitle": { "value": "24px" },
+        "pageTitle": { "value": "32px" }
+      }
+    },
+    "lineHeight": {
+      "base": { "value": "100%" },
+      "heading": { "value": "125%" },
+      "body": { "value": "150%" }
+    },
+    "weight": {
+      "regular": { "value": 400 },
+      "bold": { "value": 700 }
+    }
+  }
+}

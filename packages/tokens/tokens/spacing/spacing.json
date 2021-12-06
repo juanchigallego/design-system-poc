@@ -1,0 +1,14 @@
+{
+  "spacing": {
+    "xx-small": { "value": "4px" },
+    "x-small": { "value": "8px" },
+    "small": { "value": "16px" },
+    "medium": { "value": "24px" },
+    "large": { "value": "32px" },
+    "x-large": { "value": "40px" },
+    "xx-large": { "value": "48px" },
+    "xxx-large": { "value": "56px" },
+    "gutter": { "value": "32px" },
+    "radii": { "value": "8px" }
+  }
+}

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 03 Dec 2021 19:21:09 GMT
+ * Generated on Mon, 06 Dec 2021 23:41:52 GMT
  */
 
 module.exports = {
@@ -415,6 +415,407 @@ module.exports = {
           "pureWhite"
         ]
       }
+    }
+  },
+  "font": {
+    "family": {
+      "value": "CentraNube,-apple-system,BlinkMacSystemFont,Roboto,'Helvetica Neue',arial,sans-serif",
+      "filePath": "tokens/font/font.json",
+      "isSource": true,
+      "original": {
+        "value": "CentraNube,-apple-system,BlinkMacSystemFont,Roboto,'Helvetica Neue',arial,sans-serif"
+      },
+      "name": "FontFamily",
+      "attributes": {
+        "category": "font",
+        "type": "family"
+      },
+      "path": [
+        "font",
+        "family"
+      ]
+    },
+    "size": {
+      "body": {
+        "caption": {
+          "value": "14px",
+          "filePath": "tokens/font/font.json",
+          "isSource": true,
+          "original": {
+            "value": "14px"
+          },
+          "name": "FontSizeBodyCaption",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "body",
+            "subitem": "caption"
+          },
+          "path": [
+            "font",
+            "size",
+            "body",
+            "caption"
+          ]
+        },
+        "base": {
+          "value": "16px",
+          "filePath": "tokens/font/font.json",
+          "isSource": true,
+          "original": {
+            "value": "16px"
+          },
+          "name": "FontSizeBodyBase",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "body",
+            "subitem": "base"
+          },
+          "path": [
+            "font",
+            "size",
+            "body",
+            "base"
+          ]
+        }
+      },
+      "headline": {
+        "elementTitle": {
+          "value": "20px",
+          "filePath": "tokens/font/font.json",
+          "isSource": true,
+          "original": {
+            "value": "20px"
+          },
+          "name": "FontSizeHeadlineElementTitle",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "headline",
+            "subitem": "elementTitle"
+          },
+          "path": [
+            "font",
+            "size",
+            "headline",
+            "elementTitle"
+          ]
+        },
+        "pageSubtitle": {
+          "value": "24px",
+          "filePath": "tokens/font/font.json",
+          "isSource": true,
+          "original": {
+            "value": "24px"
+          },
+          "name": "FontSizeHeadlinePageSubtitle",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "headline",
+            "subitem": "pageSubtitle"
+          },
+          "path": [
+            "font",
+            "size",
+            "headline",
+            "pageSubtitle"
+          ]
+        },
+        "pageTitle": {
+          "value": "32px",
+          "filePath": "tokens/font/font.json",
+          "isSource": true,
+          "original": {
+            "value": "32px"
+          },
+          "name": "FontSizeHeadlinePageTitle",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "headline",
+            "subitem": "pageTitle"
+          },
+          "path": [
+            "font",
+            "size",
+            "headline",
+            "pageTitle"
+          ]
+        }
+      }
+    },
+    "lineHeight": {
+      "base": {
+        "value": "100%",
+        "filePath": "tokens/font/font.json",
+        "isSource": true,
+        "original": {
+          "value": "100%"
+        },
+        "name": "FontLineHeightBase",
+        "attributes": {
+          "category": "font",
+          "type": "lineHeight",
+          "item": "base"
+        },
+        "path": [
+          "font",
+          "lineHeight",
+          "base"
+        ]
+      },
+      "heading": {
+        "value": "125%",
+        "filePath": "tokens/font/font.json",
+        "isSource": true,
+        "original": {
+          "value": "125%"
+        },
+        "name": "FontLineHeightHeading",
+        "attributes": {
+          "category": "font",
+          "type": "lineHeight",
+          "item": "heading"
+        },
+        "path": [
+          "font",
+          "lineHeight",
+          "heading"
+        ]
+      },
+      "body": {
+        "value": "150%",
+        "filePath": "tokens/font/font.json",
+        "isSource": true,
+        "original": {
+          "value": "150%"
+        },
+        "name": "FontLineHeightBody",
+        "attributes": {
+          "category": "font",
+          "type": "lineHeight",
+          "item": "body"
+        },
+        "path": [
+          "font",
+          "lineHeight",
+          "body"
+        ]
+      }
+    },
+    "weight": {
+      "regular": {
+        "value": 400,
+        "filePath": "tokens/font/font.json",
+        "isSource": true,
+        "original": {
+          "value": 400
+        },
+        "name": "FontWeightRegular",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "regular"
+        },
+        "path": [
+          "font",
+          "weight",
+          "regular"
+        ]
+      },
+      "bold": {
+        "value": 700,
+        "filePath": "tokens/font/font.json",
+        "isSource": true,
+        "original": {
+          "value": 700
+        },
+        "name": "FontWeightBold",
+        "attributes": {
+          "category": "font",
+          "type": "weight",
+          "item": "bold"
+        },
+        "path": [
+          "font",
+          "weight",
+          "bold"
+        ]
+      }
+    }
+  },
+  "spacing": {
+    "xx-small": {
+      "value": "4px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "4px"
+      },
+      "name": "SpacingXxSmall",
+      "attributes": {
+        "category": "spacing",
+        "type": "xx-small"
+      },
+      "path": [
+        "spacing",
+        "xx-small"
+      ]
+    },
+    "x-small": {
+      "value": "8px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "8px"
+      },
+      "name": "SpacingXSmall",
+      "attributes": {
+        "category": "spacing",
+        "type": "x-small"
+      },
+      "path": [
+        "spacing",
+        "x-small"
+      ]
+    },
+    "small": {
+      "value": "16px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "16px"
+      },
+      "name": "SpacingSmall",
+      "attributes": {
+        "category": "spacing",
+        "type": "small"
+      },
+      "path": [
+        "spacing",
+        "small"
+      ]
+    },
+    "medium": {
+      "value": "24px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "24px"
+      },
+      "name": "SpacingMedium",
+      "attributes": {
+        "category": "spacing",
+        "type": "medium"
+      },
+      "path": [
+        "spacing",
+        "medium"
+      ]
+    },
+    "large": {
+      "value": "32px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "32px"
+      },
+      "name": "SpacingLarge",
+      "attributes": {
+        "category": "spacing",
+        "type": "large"
+      },
+      "path": [
+        "spacing",
+        "large"
+      ]
+    },
+    "x-large": {
+      "value": "40px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "40px"
+      },
+      "name": "SpacingXLarge",
+      "attributes": {
+        "category": "spacing",
+        "type": "x-large"
+      },
+      "path": [
+        "spacing",
+        "x-large"
+      ]
+    },
+    "xx-large": {
+      "value": "48px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "48px"
+      },
+      "name": "SpacingXxLarge",
+      "attributes": {
+        "category": "spacing",
+        "type": "xx-large"
+      },
+      "path": [
+        "spacing",
+        "xx-large"
+      ]
+    },
+    "xxx-large": {
+      "value": "56px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "56px"
+      },
+      "name": "SpacingXxxLarge",
+      "attributes": {
+        "category": "spacing",
+        "type": "xxx-large"
+      },
+      "path": [
+        "spacing",
+        "xxx-large"
+      ]
+    },
+    "gutter": {
+      "value": "32px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "32px"
+      },
+      "name": "SpacingGutter",
+      "attributes": {
+        "category": "spacing",
+        "type": "gutter"
+      },
+      "path": [
+        "spacing",
+        "gutter"
+      ]
+    },
+    "radii": {
+      "value": "8px",
+      "filePath": "tokens/spacing/spacing.json",
+      "isSource": true,
+      "original": {
+        "value": "8px"
+      },
+      "name": "SpacingRadii",
+      "attributes": {
+        "category": "spacing",
+        "type": "radii"
+      },
+      "path": [
+        "spacing",
+        "radii"
+      ]
     }
   }
 };
