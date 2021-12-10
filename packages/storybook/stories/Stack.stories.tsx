@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Button, Stack } from "../../components/src";
+import { Card, Button, Stack, Text } from "../../components/src";
 
 export default {
   title: "Stack",
@@ -17,9 +17,13 @@ const DemoCard = () => {
     <Card>
       <Card.Header title="Card title" />
       <Card.Body>
-        <p>Card Content</p>
-        <p>Several</p>
-        <p>Elements</p>
+        <Text lineHeight="body">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in urna dapibus, luctus ante non, lacinia lectus. Fusce tempus fringilla.
+        </Text>
+        <Stack>
+          <Stack.Item fill><Text appearance="primary" bold>Fill</Text></Stack.Item>
+          <Stack.Item><Text appearance="primary">No fill</Text></Stack.Item>
+        </Stack>
       </Card.Body>
       <Card.Footer>
         <Button>Button</Button>
