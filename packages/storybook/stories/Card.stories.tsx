@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Button } from "../../components/src";
+import { Card, Button, Text } from "../../components/src";
 
 export default {
   title: "Card",
@@ -11,9 +11,9 @@ export const Default = () =>
   <Card>
     <Card.Header title="Card title" />
     <Card.Body>
-      <p>Card Content</p>
-      <p>Several</p>
-      <p>Elements</p>
+      <Text>Card Content</Text>
+      <Text>Several</Text>
+      <Text>Elements</Text>
     </Card.Body>
     <Card.Footer>
       <Button>Button</Button>

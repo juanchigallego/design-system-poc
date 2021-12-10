@@ -10,10 +10,11 @@ export const ButtonStyled = styled("button", {
   borderWidth: "1px",
   cursor: "pointer",
   display: "inline-flex",
-  padding: "8px 16px",
+  padding: "10px 16px",
   textAlign: "center",
   transition: "0.5s ease",
   verticalAlign: "middle",
+  whiteSpace: "nowrap",
 
   variants: {
     appearance: {

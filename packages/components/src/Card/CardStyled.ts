@@ -2,6 +2,7 @@ import { styled } from '@stitches/react';
 import { color } from "../../../tokens/build/js/tokens";
 
 export const CardStyled = styled("div", {
+  backgroundColor: color.neutral.pureWhite.value,
   border: `1px solid ${color.neutral.nubeWhite.value}`,
   borderRadius: "8px",
   display: "flex",

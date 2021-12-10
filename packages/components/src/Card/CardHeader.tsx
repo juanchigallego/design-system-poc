@@ -2,6 +2,8 @@ import * as React from "react";
 
 import { CardHeaderStyled } from "./CardStyled";
 
+import { Title } from "../";
+
 export interface CardHeaderProps {
   title?: React.ReactText;
   children?: React.ReactNode;
@@ -10,7 +12,7 @@ export interface CardHeaderProps {
 const CardHeader = ({ title, children }: CardHeaderProps) => {
   return (
     <CardHeaderStyled>
-      <h3>{title}</h3>
+      <Title type="h3">{title}</Title>
       {children}
     </CardHeaderStyled>
   )
