@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { GridStyled } from "./GridStyled";
+import { GridStyled, globalStyles } from "./GridStyled";
 
 import Row from "./Row";
 import Column from "./Column";
@@ -12,6 +12,8 @@ type GridProps = {
 }
 
 const Grid = ({ children, fluid= false, spacing= "base" }: GridProps) => {
+  globalStyles();
+  
   return (
     <GridStyled spacing={spacing} fluid={fluid}>
       {children}

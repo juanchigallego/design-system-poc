@@ -4,12 +4,11 @@ import { RowStyled } from "./GridStyled";
 
 type RowProps = {
   children: React.ReactNode;
-  spacing?: "base" | "tight" | "loose" | "none";
 }
 
-const Row = ({ children, spacing= "base" }: RowProps) => {
+const Row = ({ children }: RowProps) => {
   return (
-    <RowStyled spacing={spacing}>
+    <RowStyled>
       {children}
     </RowStyled>
   )

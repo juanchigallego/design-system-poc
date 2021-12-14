@@ -41,17 +41,18 @@ export const AutoWidthCols = (args) => {
   }
 
   return(
-    <Grid fluid={args.fluid}> 
-      <Grid.Row spacing={args.spacing}>
-        {repeatingCards}
-      </Grid.Row>
-      <Grid.Row>
-        <Stack>
-          <Button onClick={() => setCardCount(cardCount - 1)}>Remove column</Button>
-          <Button onClick={() => setCardCount(cardCount + 1)}>Add column</Button>
-        </Stack>
-      </Grid.Row>
-    </Grid>
+    <>
+      <Grid fluid={args.fluid} spacing={args.spacing}> 
+        <Grid.Row>
+          {repeatingCards}
+        </Grid.Row>
+      </Grid>
+      <div style={{ display: "block", width: "100%", paddingTop: 16 }} />
+      <Stack>
+        <Button onClick={() => setCardCount(cardCount - 1)}>Remove column</Button>
+        <Button onClick={() => setCardCount(cardCount + 1)}>Add column</Button>
+      </Stack>
+    </>
   )
 };
 
@@ -60,24 +61,26 @@ export const FixedWidthCols = (args) => {
 
   const repeatingCards: JSX.Element[] = [];
   for (let i = 1; i <= cardCount; i++) {
-    repeatingCards.push(<Grid.Column key={i}><DemoContent label="Column with auto width" /></Grid.Column>);
+    repeatingCards.push(
+      <Grid.Column key={i} sm={args.sm} md={args.md} lg={args.lg}>
+        <DemoContent label={`Width sm ${args.sm}`} labelSecondary={`Width md ${args.md}`} labelTertiary={`Width lg ${args.lg}`} />
+      </Grid.Column>
+    );
   }
 
   return(
-    <Grid fluid={args.fluid}> 
-      <Grid.Row spacing={args.spacing}>
-        <Grid.Column sm={args.sm} md={args.md} lg={args.lg}>
-          <DemoContent label={`Width sm ${args.sm}`} labelSecondary={`Width md ${args.md}`} labelTertiary={`Width lg ${args.lg}`} />
-        </Grid.Column>
-        {repeatingCards}
-      </Grid.Row>
-      <Grid.Row>
-        <Stack>
-          <Button onClick={() => setCardCount(cardCount - 1)}>Remove column</Button>
-          <Button onClick={() => setCardCount(cardCount + 1)}>Add column</Button>
-        </Stack>
-      </Grid.Row>
-    </Grid>
+    <>
+      <Grid fluid={args.fluid} spacing={args.spacing}> 
+        <Grid.Row>
+          {repeatingCards}
+        </Grid.Row>
+      </Grid>
+      <div style={{ display: "block", width: "100%", paddingTop: 16 }} />
+      <Stack>
+        <Button onClick={() => setCardCount(cardCount - 1)}>Remove column</Button>
+        <Button onClick={() => setCardCount(cardCount + 1)}>Add column</Button>
+      </Stack>
+    </>
   )
 };
 
@@ -88,8 +91,8 @@ AutoWidthCols.args = {
 
 FixedWidthCols.args = {
   fluid: false,
-  sm: 0,
-  md: 0,
-  lg: 0,
+  sm: 6,
+  md: 6,
+  lg: 6,
   spacing: "base"
 }
