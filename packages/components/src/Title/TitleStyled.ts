@@ -1,5 +1,5 @@
 import { css } from '@stitches/react';
-import tokens from "@juanchigallego/tokens";
+import tokens from "../../../tokens";
 
 const BaseTitleStyled = css({
   color: tokens.color.secondary.pure.value,
