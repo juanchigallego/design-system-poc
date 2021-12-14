@@ -5,7 +5,7 @@ import { CardHeaderStyled } from "./CardStyled";
 import { Title } from "../";
 
 export interface CardHeaderProps {
-  title?: React.ReactText;
+  title: React.ReactText;
   children?: React.ReactNode;
 }
 

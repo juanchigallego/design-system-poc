@@ -7,7 +7,7 @@ export const { styled, css } = createStitches({
   },
 
   utils: {
-    flexWidth: (value) => ({
+    flexWidth: (value: number) => ({
       flexBasis: ((value / 6) * 100) + "%",
       flexGrow: 0,
       flexShrink: 0,
