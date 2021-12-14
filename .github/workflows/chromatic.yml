@@ -11,11 +11,15 @@ jobs:
   chromatic-deployment:
     # Operating System
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: packages/storybook
     # Job steps
     steps:
       - uses: actions/checkout@v1
       - name: Install dependencies
         run: yarn
+        working-directory: packages/storybook
         # 👇 Adds Chromatic as a step in the workflow
       - name: Publish to Chromatic
         uses: chromaui/action@v1
@@ -24,5 +28,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # 👇 Chromatic projectToken, refer to the manage page to obtain it.
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
-          storybookBuildDir: packages/storybook/storybook-static/
+          storybookBuildDir: packages/storybook/storybook-static
           workingDir: packages/storybook

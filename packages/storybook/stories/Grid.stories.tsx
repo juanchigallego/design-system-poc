@@ -7,14 +7,7 @@ import { color } from "../../tokens/build/js/tokens";
 
 export default {
   title: "Grid",
-  component: Grid,
-  argTypes: {
-    fluid: { control: "boolean" },
-    sm: { control: "number" },
-    md: { control: "number" },
-    lg: { control: "number" },
-    spacing: { control: "select", options: ["base", "tight", "loose", "none"] }
-  }
+  component: Grid
 };
 
 type DemoProps = {
@@ -48,7 +41,7 @@ export const AutoWidthCols = (args) => {
   }
 
   return(
-    <Grid {...args}> 
+    <Grid fluid={args.fluid}> 
       <Grid.Row spacing={args.spacing}>
         {repeatingCards}
       </Grid.Row>
@@ -71,7 +64,7 @@ export const FixedWidthCols = (args) => {
   }
 
   return(
-    <Grid {...args}> 
+    <Grid fluid={args.fluid}> 
       <Grid.Row spacing={args.spacing}>
         <Grid.Column sm={args.sm} md={args.md} lg={args.lg}>
           <DemoContent label={`Width sm ${args.sm}`} labelSecondary={`Width md ${args.md}`} labelTertiary={`Width lg ${args.lg}`} />
