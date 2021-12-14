@@ -1,10 +1,10 @@
 {
-  "name": "components",
+  "name": "@juanchigallego/components",
   "version": "0.1.0",
   "description": "Design System components built with React",
   "author": "Juan Manuel Gallego <juanma.gallego@tiendanube.com>",
   "homepage": "https://github.com/juanchigallego/design-system-poc#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "src/index.ts",
   "directories": {
     "lib": "lib",
@@ -27,7 +27,8 @@
     "@stitches/react": "^1.2.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "tokens": "^0.1.0",
+    "@juanchigallego/tokens": "^0.1.0",
     "typescript": "^4.5.2"
-  }
+  },
+  "gitHead": "b4410978bdf2a3148fba1aa5de8b87ea5f84941c"
 }

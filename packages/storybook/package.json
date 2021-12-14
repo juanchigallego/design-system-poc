@@ -1,10 +1,10 @@
 {
-  "name": "storybook",
+  "name": "@juanchigallego/storybook",
   "version": "0.1.0",
   "description": "> TODO: description",
   "author": "Juan Manuel Gallego <juanma.gallego@tiendanube.com>",
   "homepage": "https://github.com/juanchigallego/design-system-poc#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/storybook.js",
   "directories": {
     "lib": "lib",
@@ -36,9 +36,10 @@
     "chromatic": "^6.2.0"
   },
   "dependencies": {
-    "components": "^0.1.0",
+    "@juanchigallego/components": "^0.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "storybook-addon-state": "^1.0.3"
-  }
+  },
+  "gitHead": "b4410978bdf2a3148fba1aa5de8b87ea5f84941c"
 }

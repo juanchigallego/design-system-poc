@@ -1,10 +1,10 @@
 {
-  "name": "tokens",
+  "name": "@juanchigallego/tokens",
   "version": "0.1.0",
   "description": "Design System Tokens built with Style Dictionary",
   "author": "Juan Manuel Gallego <juanma.gallego@tiendanube.com>",
   "homepage": "https://github.com/juanchigallego/design-system-poc#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/tokens.js",
   "directories": {
     "lib": "lib",
@@ -22,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/juanchigallego/design-system-poc/issues"
-  }
+  },
+  "gitHead": "b4410978bdf2a3148fba1aa5de8b87ea5f84941c"
 }
