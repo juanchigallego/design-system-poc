@@ -1,5 +1,5 @@
 import { styled } from '@stitches/react';
-import tokens from "../../../tokens";
+import tokens from "@juanchigallego/tokens";
 
 export const CardStyled = styled("div", {
   backgroundColor: tokens.color.neutral.pureWhite.value,
