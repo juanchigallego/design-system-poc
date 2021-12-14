@@ -12,7 +12,7 @@
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "build"
   ],
   "repository": {
     "type": "git",
