@@ -3,8 +3,6 @@ import useState from 'storybook-addon-state';
 
 import { Button, Grid, Stack, Text } from "../../components/src";
 
-import { color } from "@juanchigallego/tokens";
-
 export default {
   title: "Grid",
   component: Grid
@@ -19,8 +17,8 @@ type DemoProps = {
 const DemoContent = ({ label, labelSecondary, labelTertiary }:DemoProps ) => {
   return (
     <div style={{
-      backgroundColor: color.primary.lighter.value,
-      border: `1px dashed ${color.primary.pure.value}`,
+      backgroundColor: "#edf5fe",
+      border: "1px dashed #0272d5",
       display: "block",
       height: "90px",
       padding: "0.5rem"
