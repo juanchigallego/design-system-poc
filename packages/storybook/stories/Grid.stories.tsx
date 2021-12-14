@@ -1,7 +1,8 @@
 import React from 'react';
 import useState from 'storybook-addon-state';
 
-import { Button, Grid, Stack, Text } from "../../components/src";
+import { Button, Grid, Stack, Text } from "@juanchigallego/components";
+import tokens from "@juanchigallego/tokens";
 
 export default {
   title: "Grid",
@@ -17,8 +18,8 @@ type DemoProps = {
 const DemoContent = ({ label, labelSecondary, labelTertiary }:DemoProps ) => {
   return (
     <div style={{
-      backgroundColor: "#edf5fe",
-      border: "1px dashed #0272d5",
+      backgroundColor: tokens.color.primary.lighter.value,
+      border: `1px dashed ${tokens.color.primary.pure.value}`,
       display: "block",
       height: "90px",
       padding: "0.5rem"

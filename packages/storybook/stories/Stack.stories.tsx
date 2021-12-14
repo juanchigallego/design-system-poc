@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Button, Stack, Text } from "../../components/src";
+import { Card, Button, Stack, Text } from "@juanchigallego/components";
 
 export default {
   title: "Stack",

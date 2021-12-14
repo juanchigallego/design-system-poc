@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Title } from "../../components/src";
+import { Title } from "@juanchigallego/components";
 
 export default {
   title: "Title",
