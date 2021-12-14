@@ -1,10 +1,10 @@
 import { styled } from '@stitches/react';
-import { color, font } from "@juanchigallego/tokens";
+import tokens from "@juanchigallego/tokens";
 
 export const TextStyled = styled("p", {
   display: "inline-block",
-  fontFamily: font.family.value,
-  fontWeight: font.weight.regular.value,
+  fontFamily: tokens.font.family.value,
+  fontWeight: tokens.font.weight.regular.value,
   margin: 0,
   padding: 0,
   textAlign: "left",
@@ -12,31 +12,31 @@ export const TextStyled = styled("p", {
   variants: {
     size: {
       caption: {
-        fontSize: font.size.body.caption.value
+        fontSize: tokens.font.size.body.caption.value
       },
 
       base: {
-        fontSize: font.size.body.base.value
+        fontSize: tokens.font.size.body.base.value
       }
     },
 
     lineHeight: {
       base: {
-        lineHeight: font.lineHeight.base.value
+        lineHeight: tokens.font.lineHeight.base.value
       },
 
       heading: {
-        lineHeight: font.lineHeight.heading.value
+        lineHeight: tokens.font.lineHeight.heading.value
       },
 
       body: {
-        lineHeight: font.lineHeight.body.value
+        lineHeight: tokens.font.lineHeight.body.value
       }
     },
 
     bold: {
       true: {
-        fontWeight: font.weight.bold.value
+        fontWeight: tokens.font.weight.bold.value
       }
     },
 
@@ -54,31 +54,31 @@ export const TextStyled = styled("p", {
 
     appearance: {
       default: {
-        color: color.neutral.default.value
+        color: tokens.color.neutral.default.value
       },
 
       primary: {
-        color: color.primary.pure.value
+        color: tokens.color.primary.pure.value
       },
 
       secondary: {
-        color: color.secondary.pure.value
+        color: tokens.color.secondary.pure.value
       },
 
       danger: {
-        color: color.danger.pure.value
+        color: tokens.color.danger.pure.value
       },
 
       warning: {
-        color: color.warning.pure.value
+        color: tokens.color.warning.pure.value
       },
 
       success: {
-        color: color.success.pure.value
+        color: tokens.color.success.pure.value
       },
 
       light: {
-        color: color.neutral.pureWhite.value
+        color: tokens.color.neutral.pureWhite.value
       }
     }
   }

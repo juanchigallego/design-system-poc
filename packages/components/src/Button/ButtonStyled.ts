@@ -1,5 +1,5 @@
 import { styled } from '@stitches/react';
-import { color } from "@juanchigallego/tokens";
+import tokens from "@juanchigallego/tokens";
 
 export const ButtonStyled = styled("button", {
   alignItems: "center",
@@ -19,9 +19,9 @@ export const ButtonStyled = styled("button", {
   variants: {
     appearance: {
       default: {
-        backgroundColor: color.neutral.nubeWhite.value,
-        borderColor: color.neutral.nubeWhite.value,
-        color: color.secondary.pure.value,
+        backgroundColor: tokens.color.neutral.nubeWhite.value,
+        borderColor: tokens.color.neutral.nubeWhite.value,
+        color: tokens.color.secondary.pure.value,
 
         "&:hover": {
           backgroundColor: "black",
@@ -30,9 +30,9 @@ export const ButtonStyled = styled("button", {
       },
 
       primary: {
-        backgroundColor: color.primary.pure.value,
-        borderColor: color.primary.pure.value,
-        color: color.neutral.pureWhite.value,
+        backgroundColor: tokens.color.primary.pure.value,
+        borderColor: tokens.color.primary.pure.value,
+        color: tokens.color.neutral.pureWhite.value,
 
         "&:hover": {
           backgroundColor: "dark blue",
@@ -41,9 +41,9 @@ export const ButtonStyled = styled("button", {
       },
 
       secondary: {
-        backgroundColor: color.secondary.pure.value,
-        borderColor: color.secondary.pure.value,
-        color: color.neutral.pureWhite.value,
+        backgroundColor: tokens.color.secondary.pure.value,
+        borderColor: tokens.color.secondary.pure.value,
+        color: tokens.color.neutral.pureWhite.value,
 
         "&:hover": {
           backgroundColor: "dark blue",
@@ -52,9 +52,9 @@ export const ButtonStyled = styled("button", {
       },
 
       danger: {
-        backgroundColor: color.danger.pure.value,
-        borderColor: color.danger.pure.value,
-        color: color.neutral.pureWhite.value,
+        backgroundColor: tokens.color.danger.pure.value,
+        borderColor: tokens.color.danger.pure.value,
+        color: tokens.color.neutral.pureWhite.value,
 
         "&:hover": {
           backgroundColor: "dark blue",

@@ -5,7 +5,7 @@
   "author": "Juan Manuel Gallego <juanma.gallego@tiendanube.com>",
   "homepage": "https://github.com/juanchigallego/design-system-poc#readme",
   "license": "MIT",
-  "main": "build/js/tokens.js",
+  "main": "build/index.js",
   "types": "build/index.d.ts",
   "directories": {
     "lib": "lib",
