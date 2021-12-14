@@ -1,5 +1,5 @@
 import { styled } from '@stitches/react';
-import { color, font } from "../../../tokens/build/js/tokens";
+import { color, font } from "@juanchigallego/tokens";
 
 export const TextStyled = styled("p", {
   display: "inline-block",

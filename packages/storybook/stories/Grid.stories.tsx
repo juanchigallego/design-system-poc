@@ -3,7 +3,7 @@ import useState from 'storybook-addon-state';
 
 import { Button, Grid, Stack, Text } from "../../components/src";
 
-import { color } from "../../tokens/build/js/tokens";
+import { color } from "@juanchigallego/tokens";
 
 export default {
   title: "Grid",

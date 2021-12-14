@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@juanchigallego/components": "^0.1.4",
+    "@juanchigallego/tokens": "^0.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "storybook-addon-state": "^1.0.3"

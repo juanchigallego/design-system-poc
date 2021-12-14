@@ -1,5 +1,5 @@
 import { styled } from '@stitches/react';
-import { color } from "../../../tokens/build/js/tokens";
+import { color } from "@juanchigallego/tokens";
 
 export const ButtonStyled = styled("button", {
   alignItems: "center",
