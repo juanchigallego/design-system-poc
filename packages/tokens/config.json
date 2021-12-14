@@ -24,6 +24,14 @@
         "destination": "tokens.js",
         "format": "javascript/module"
       }]
+    },
+    "ts": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [{
+        "destination": "index.d.ts",
+        "format": "typescript/module-declarations"
+      }]
     }
   }
 }
