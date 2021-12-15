@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Button, Text } from "@juanchigallego/components";
+import { Card, Button, Text } from "../../components/build";
 
 export default {
   title: "Card",
