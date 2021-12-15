@@ -1,12 +1,15 @@
 import React from 'react';
 import useState from 'storybook-addon-state';
 
-import { Button, Grid, Stack, Text } from "../../components/build";
-import tokens from "../../tokens/build";
+import { Button, Grid, Stack, Text } from "@juanchigallego/components/src";
+import tokens from "@juanchigallego/tokens";
 
 export default {
   title: "Grid",
-  component: Grid
+  component: Grid,
+  argTypes: {
+    spacing: { control: "select", options: ["base", "tight", "loose", "none"] },
+  }
 };
 
 type DemoProps = {

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card, Button, Text } from "../../components/build";
+import { Card, Button, Text } from "@juanchigallego/components/src";
 
 export default {
   title: "Card",

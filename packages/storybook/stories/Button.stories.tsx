@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button } from "../../components/build";
+import { Button } from "@juanchigallego/components/src";
 
 export default {
   title: "Button",
