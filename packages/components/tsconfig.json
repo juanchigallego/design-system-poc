@@ -15,9 +15,9 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "src"
   },
-  "baseUrl": "build",
+  "baseUrl": "./build",
   "paths": {
-    "@juanchigallego/components/*": ["build/*"]
+    "@juanchigallego/components": ["index"]
   },
   "compileOnSave": true,
   "include": ["src/**/*"],

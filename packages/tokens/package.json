@@ -14,6 +14,9 @@
   "files": [
     "build"
   ],
+  "_moduleAliases": {
+    "@juanchigallego/tokens": "build/index"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juanchigallego/design-system-poc.git"
@@ -24,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/juanchigallego/design-system-poc/issues"
   },
-  "gitHead": "b4410978bdf2a3148fba1aa5de8b87ea5f84941c"
+  "gitHead": "b4410978bdf2a3148fba1aa5de8b87ea5f84941c",
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
 }
