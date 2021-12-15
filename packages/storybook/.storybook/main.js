@@ -26,8 +26,6 @@ module.exports = {
         extensions: config.resolve.extensions,
       }),
     ];
-    config.resolve.alias["@juanchigallego/components"] = path.resolve(__dirname, "../../components/build")
-    config.resolve.alias["@juanchigallego/tokens"] = path.resolve(__dirname, "../../tokens/build")
     return config;
   }
 }
