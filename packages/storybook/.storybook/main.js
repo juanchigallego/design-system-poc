@@ -24,8 +24,11 @@ module.exports = {
       ...(config.resolve.plugins || []),
       new TsconfigPathsPlugin({
         extensions: config.resolve.extensions,
+        configFile: "../tsconfig.json"
       }),
     ];
+    config.resolve.alias["@juanchigallego/components"] = path.resolve(__dirname, "../../components/build")
+    config.resolve.alias["@juanchigallego/tokens"] = path.resolve(__dirname, "../../tokens/build")
     return config;
   }
 }
