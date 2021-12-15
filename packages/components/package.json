@@ -1,6 +1,6 @@
 {
   "name": "@juanchigallego/components",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Design System components built with React",
   "author": "Juan Manuel Gallego <juanma.gallego@tiendanube.com>",
   "homepage": "https://github.com/juanchigallego/design-system-poc#readme",
@@ -29,7 +29,7 @@
     "url": "https://github.com/juanchigallego/design-system-poc/issues"
   },
   "dependencies": {
-    "@juanchigallego/tokens": "^0.1.8",
+    "@juanchigallego/tokens": "^0.1.9",
     "@stitches/react": "^1.2.6",
     "module-alias": "^2.2.2",
     "react": "^17.0.2",

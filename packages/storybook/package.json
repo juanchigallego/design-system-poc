@@ -1,6 +1,6 @@
 {
   "name": "@juanchigallego/storybook",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "> TODO: description",
   "author": "Juan Manuel Gallego <juanma.gallego@tiendanube.com>",
   "homepage": "https://github.com/juanchigallego/design-system-poc#readme",
@@ -28,8 +28,8 @@
     "chromatic": "^6.2.0"
   },
   "dependencies": {
-    "@juanchigallego/components": "^0.1.11",
-    "@juanchigallego/tokens": "^0.1.8",
+    "@juanchigallego/components": "^0.1.12",
+    "@juanchigallego/tokens": "^0.1.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "storybook-addon-state": "^1.0.3"
