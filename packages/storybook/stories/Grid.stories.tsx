@@ -2,7 +2,7 @@ import React from 'react';
 import useState from 'storybook-addon-state';
 
 import { Button, Grid, Stack, Text } from "@juanchigallego/components/src";
-import tokens from "@juanchigallego/tokens";
+import tokens from "@juanchigallego/tokens/tokens/color/color.json";
 
 export default {
   title: "Grid",
